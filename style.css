@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  font-family: lato;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container-header {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.menu {
+  background: #222222;
+  height: 75px;
+}
+
+.menu .menu-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 19px;
+}
+
+.menu .button-menu-left {
+  margin-right: 41px;
+}
+
+.menu .button-menu-right {
+  margin-right: 33px;
+}
+
+.header {
+  background: #F1E4E6;
+  height: 764px;
+  margin-bottom: 65px;
+}
+
+.header .header-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .shift-logo {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.header .logo {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.logo::before {
+  content: url(../img-1/Rectangle\ 16\ copy.svg);
+  margin-right: 16px;
+}
+
+.red-logo {
+  color: #F16D7F;
+}
+
+.logo-wrap {
+  white-space: nowrap;
+}
+
+.content-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.content-first-part {
+  position: relative;
+}
+
+.content-second-part {
+  position: relative;
+}
+
+.content-third-part {
+  position: relative;
+}
+
+.content-big-part {
+  position: relative;
+}
+
+.content-text {
+  position: absolute;
+  left: 103px;
+  top: 105px;
+  font-size: 16px;
+  line-height: 28,8px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: center;
+}
+
+.content-text:hover {
+  color: #F16D7F;
+}
+
+.content-position-2 {
+  left: 125px;
+}
+
+.content-position-3 {
+  left: 123px;
+}
+.content-big-text {
+  position: absolute;
+  left: 492px;
+  top: 65px;
+  font-size: 16px;
+  line-height: 28,8px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: center;
+}
+
+.content-big-text:hover {
+  color: #F16D7F;
+}
+
+.content-red-text {
+  font-size: 24px;
+  color: #F16D7F;
+  font-weight: 700;
+}
