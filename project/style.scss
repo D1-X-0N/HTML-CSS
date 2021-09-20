@@ -454,6 +454,7 @@ $pink: #F16D7F;
   .footer-bottom-flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .bottom-text {
@@ -461,6 +462,28 @@ $pink: #F16D7F;
     line-height: 19px;
     color: #FBFBFB;
     padding: 30px 0px;
+  }
+
+  .bottom-right {
+    display: flex;
+  }
+
+  .link-social-network {
+    background: #FFF;
+    flex-grow: 1;
+    margin-right: 7px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+  }
+
+  .link-social-network:hover {
+    background: $pink;
+  }
+
+  .social-photo {
+    padding: auto;
+    margin-top: 7px;
   }
 }
 
@@ -475,7 +498,9 @@ $pink: #F16D7F;
 //   height: 420px;
 // }
 
-// .catalog-item-card:hover .back-color-img {
-//   display: flex;
+// .catalog:hover .back-color-img {
+//   position: absolute;
+//   width: 360px;
+//   height: 420px;
 //   background: rgba(58, 56, 56, 0.86);
 // }
