@@ -512,17 +512,19 @@ $pink: #F16D7F;
     display: flex;
   }
 
-  .link-social-network {
+  .fab {
     background: #FFF;
+    text-decoration: none;
     flex-grow: 1;
     margin-right: 7px;
-    height: 32px;
-    width: 32px;
     text-align: center;
+    padding: 8px;
+    color: #000;
   }
 
-  .link-social-network:hover {
+  .fab:hover {
     background: $pink;
+    color: #FFF;
   }
 
   .social-photo {
