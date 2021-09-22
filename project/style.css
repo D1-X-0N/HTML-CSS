@@ -282,10 +282,11 @@
 .catalog .catalog-item-card {
   width: 360px;
   background: #F8F8F8;
-  margin-bottom: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-decoration: none;
+  display: block;
+  width: 360px;
 }
 
 .catalog .card-heading {
@@ -339,6 +340,59 @@
   color: #FFF;
   border: 1px solid transparent;
   background: #F16D7F;
+}
+
+.catalog .item:hover .card-img {
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
+}
+
+.catalog .item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.catalog .add-item {
+  position: absolute;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 100%;
+  pointer-events: none;
+  top: 188px;
+}
+
+.catalog .cart {
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  pointer-events: all;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.catalog .cart-text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-left: 7px;
+  font-weight: 700px;
+}
+
+.catalog .item:hover .add-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.catalog .cart:hover {
+  -webkit-box-shadow: 0 0 6px #FFF;
+          box-shadow: 0 0 6px #FFF;
 }
 
 .footer .footer-top {
