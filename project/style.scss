@@ -38,7 +38,9 @@ $pink: #F16D7F;
  list-style-type: none;
  position: relative;
 }
-
+.point{
+  list-style-type: none;
+}
 .container-header {
   max-width: 1600px;
   margin: 0 auto;
@@ -191,6 +193,7 @@ $pink: #F16D7F;
 .menu-list-container {
   position: absolute;
   display: none;
+  z-index: 2;
 }
 
 .menu-list {
@@ -705,4 +708,69 @@ $pink: #F16D7F;
   padding-left: 22px;
   font-size: 16px;
   line-height: 19px;
+}
+
+.filter-flex {
+  display: flex;
+}
+
+.left-filter {
+  margin-right: 304px;
+  margin-top: 51px;
+  margin-bottom: 23px;
+  border: 1px solid transparent;
+}
+
+.product-style-filter {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.product-style-filter-category {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.product-style-filter-category::before {
+  content: url(../img-1/category.svg);
+  margin-right: 11px;
+}
+.filter-left-text {
+  margin-right: 11px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.filter-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+}
+
+.filter-link:hover {
+  color: $pink;
+}
+
+.filter-hr {
+  margin: 0;
+}
+
+.product-choose-filter:active {
+  color: $pink;
+}
+
+.pagination {
+  justify-content: center;
+  margin-bottom: 96px;
+  margin-top: -70px;
+
+  .page-link {
+    color: $pink;
+  }
 }
