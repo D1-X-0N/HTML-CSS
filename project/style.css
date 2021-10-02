@@ -142,18 +142,46 @@
 
 .content-first-part {
   position: relative;
+  -webkit-transition: scale, 0.3s;
+  transition: scale, 0.3s;
+}
+
+.content-first-part:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .content-second-part {
   position: relative;
+  -webkit-transition: scale, 0.3s;
+  transition: scale, 0.3s;
+}
+
+.content-second-part:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .content-third-part {
   position: relative;
+  -webkit-transition: scale, 0.3s;
+  transition: scale, 0.3s;
+}
+
+.content-third-part:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .content-big-part {
   position: relative;
+  -webkit-transition: scale, 0.3s;
+  transition: scale, 0.3s;
+}
+
+.content-big-part:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .content-text {
@@ -345,6 +373,8 @@
   border: 1px solid #F16D7F;
   text-decoration: none;
   padding: 14px 38.5px;
+  -webkit-transition: color, 0.3s;
+  transition: color, 0.3s;
 }
 
 .catalog .catalog-more-text {
@@ -566,11 +596,14 @@
   padding: 12px;
   border-radius: 0px 10px 10px 0px;
   border: 1px solid transparent;
+  -webkit-transition: color, 0.3s;
+  transition: color, 0.3s;
 }
 
 .footer .submit:hover {
   background: #FFF;
   color: #F16D7F;
+  border: 1px solid #F16D7F;
 }
 
 .footer .footer-bottom {
@@ -612,6 +645,8 @@
   text-align: center;
   padding: 8px;
   color: #000;
+  -webkit-transition: color, 0.3s;
+  transition: color, 0.3s;
 }
 
 .footer .fab:hover {
@@ -682,6 +717,8 @@
   border: 1px solid #EAEAEA;
   text-align: center;
   background: #fff;
+  -webkit-transform: translate(0, -30px);
+          transform: translate(0, -30px);
 }
 
 .product-collection {
@@ -774,6 +811,8 @@
   padding: 15px 22px;
   text-align: center;
   margin-bottom: 65px;
+  -webkit-transition: color, 0.3s;
+  transition: color, 0.3s;
 }
 
 .product-link-cart:hover {
