@@ -800,3 +800,169 @@ $pink: #F16D7F;
     color: $pink;
   }
 }
+
+.reg-logo {
+  &_color {
+    background: #F8F3F4;
+    color: $pink;
+  }
+  &__logo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &_text {
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+}
+
+.registration {
+  &_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.form {
+  &_flex {
+    display: flex;
+    flex-direction: column;
+  }
+  &__header {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-top: 65px;
+    margin-bottom: 20px;
+  }
+
+  &__header-add {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-top: 34px;
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    border: 1px solid #a4a4a47e;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(177, 177, 177, 0.5);
+    padding: 13px;
+    width: 360px;
+    margin-bottom: 20px;
+  }
+
+  &__input-last {
+    border: 1px solid #a4a4a47e;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(177, 177, 177, 0.5);
+    padding: 13px;
+    width: 360px;
+    margin-bottom: 10px;
+  }
+
+  &__radio {
+    margin-right: 20px;
+    margin-top: 14px;
+  }
+
+  &__radio__input {
+    margin-right: 10px;
+  }
+
+  &__radio__flex {
+    display: flex;
+  }
+
+  &__text-info {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    width: 360px;
+    margin-bottom: 39px;
+  }
+
+  &__sumbit {
+    box-sizing: border-box;
+    width: 167px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    padding-left: 29px;
+    text-align: left;
+    background: $pink;
+    border: 1px solid transparent;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 17px;
+    transition: color, 0.3s;
+  }
+  
+  &__sumbit-after {
+    position: relative;
+    margin-bottom: 96px;
+  }
+
+  &__sumbit-after::after {
+    content: url(../img-1/arrow-right.svg);
+    position: absolute;
+    left: 121px;
+    bottom: 14px;
+  }
+
+  &__sumbit:hover {
+    color: $pink;
+    border: 1px solid $pink;
+    background: #fff;
+  }
+}
+
+.reg-info {
+  &__header {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 64px;
+    margin-bottom: 22px;
+  }
+
+  &__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 652px;
+  }
+
+  &__many-plus {
+    list-style-type: none;
+  }
+
+  &__plus {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    position: relative;
+    margin-bottom: 16px;
+  }
+
+  &__plus::before {
+    position: absolute;
+    content: url(../img-1/plus-arrow.svg);
+    left: -30px;
+  }
+}
