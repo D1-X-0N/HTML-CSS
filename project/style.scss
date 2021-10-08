@@ -10,6 +10,33 @@ $pink: #F16D7F;
   color: $pink;
 }
 
+@keyframes carousel {
+  0%,
+  50%,
+  100% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(45deg);
+  }
+
+  75% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes color-change {
+  0%,
+  100% {
+    color: $pink;
+  }
+
+  50% {
+    color: #000;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -118,6 +145,7 @@ $pink: #F16D7F;
 
 .red-logo {
   color: $pink;
+  animation: color-change 2s ease 0s infinite;
 }
 
 .logo-wrap {
@@ -417,6 +445,7 @@ $pink: #F16D7F;
   padding-bottom: 103px;
   text-align: center;
   flex-grow: 1;
+  animation: carousel 3s linear 0s 5;
 }
 
 .top-header {
@@ -1016,3 +1045,96 @@ $pink: #F16D7F;
   }
 }
 
+.cart {
+  margin-top: 96px;
+}
+
+.cart-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-left {
+  width: 48%;
+  margin-bottom: 128px;
+}
+
+.cart-card-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-card {
+  box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+  min-height: 306px;
+  margin-bottom: 40px;
+}
+
+.cart-card-img {
+  height: 100%;
+  
+}
+
+.cart-inside-flex {
+  display: flex;
+}
+
+.card-function {
+  list-style-type: none;
+}
+
+.cart-card-style {
+  padding: 5%;
+  position: relative;
+}
+
+.cart-card-header {
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+  margin-bottom: 42px;
+  padding-right: 10%;
+}
+
+
+.cart-quality {
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+.red-text {
+  color: $pink;
+}
+
+.cart-card-close {
+  text-decoration: none;
+  color: #222222;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+}
+
+.cart-card-button-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 72px;
+}
+
+.cart-card-link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  border: 1px solid #000;
+  width: 33%;
+  text-align: center;
+  padding: 17px 10px;
+}
+
+.cart-right {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}

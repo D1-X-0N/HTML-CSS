@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/8adfa40078.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <title>world</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8adfa40078.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -70,51 +71,64 @@
             </nav>
             <div class="reg-logo reg-logo_color">
                 <div class="container">
-                    <h4 class="reg-logo__logo reg-logo__logo_text">REGISTRATION</h4>
+                    <h4 class="reg-logo__logo reg-logo__logo_text text">SHOPPING CART</h4>
                 </div>
             </div>
-            <section class="">
+            <section class="cart">
                 <div class="container">
-                    <div class="registration registration_flex">
-                        <div class="form">
-                            <form class="form_flex" action="#">
-                                <h3 class="form__header text">Your Name</h3>
-                                <input class="form__input" type="text" placeholder="First Name">
-                                <input class="form__input" type="text" placeholder="Last Name">
-                                <div class="form__radio__flex">
-                                    <label class="form__radio"><input class="form__radio__input" name="gender"
-                                            type="radio">Male</label>
-                                    <label class="form__radio"><input class="form__radio__input" name="gender"
-                                            type="radio">Female</label>
+                    <div class="cart-flex">
+                        <div class="cart-left">
+                            <div class="cart-card-flex">
+                                <div class="cart-card">
+                                    <div class="cart-inside-flex">
+                                        <div><img class="cart-card-img" src="../img-1/cart-man.jpg" alt="man"></div>
+                                        <div class="cart-card-style">
+                                            <h4 class="cart-card-header text">MANGO PEOPLE T-SHIRT</h4>
+                                            <ul class="card-function">
+                                                <li class="card-quality text">Price: <span class="red-text">$300</span>
+                                                </li>
+                                                <li class="card-quality text">Color: Red</li>
+                                                <li class="card-quality text">Size: Xl</li>
+                                                <li class="card-quality text">Quantity: 2</li>
+                                            </ul>
+                                            <a href="#" class="cart-card-close fas fa-times"></a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <h3 class="form__header-add text">Login details</h3>
-                                <input class="form__input" type="email" placeholder="Email">
-                                <input class="form__input-last" type="password" placeholder="Password">
-                                <p class="form__text-info">Please use 8 or more characters, with at least 1 number and a
-                                    mixture of uppercase and lowercase letters</p>
-                                <div class="form__sumbit-after">
-                                    <input value="JOIN NOW" class="form__sumbit text" type="button">
+                                <div class="cart-card">
+                                    <div class="cart-inside-flex">
+                                        <div><img class="cart-card-img" src="../img-1/cart-man-2.jpg" alt="man"></div>
+                                        <div class="cart-card-style">
+                                            <h4 class="cart-card-header text">MANGO PEOPLE T-SHIRT</h4>
+                                            <ul class="card-function">
+                                                <li class="card-quality text">Price: <span class="red-text">$300</span>
+                                                </li>
+                                                <li class="card-quality text">Color: Red</li>
+                                                <li class="card-quality text">Size: Xl</li>
+                                                <li class="card-quality text">Quantity: 2</li>
+                                            </ul>
+                                            <a href="#" class="cart-card-close fas fa-times"></a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </form>
+                                <div class="cart-card-button-flex">
+                                    <div class="cart-card-button">
+                                        <a class="cart-card-link text" href="#">CLEAR SHOPPING CART</a>
+                                    </div>
+                                    <div class="cart-card-button">
+                                        <a class="cart-card-link text" href="#">CONTINUE SHOPPING</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="reg-info">
-                            <h2 class="reg-info__header text">
-                                LOYALTY HAS ITS PERKS
-                            </h2>
-                            <p class="reg-info__text text">
-                                Get in on the loyalty program where you can earn points and unlock serious perks.
-                                Starting with these as soon as you join:
-                            </p>
-                            <ul class="reg-info__many-plus">
-                                <li class="reg-info__plus text">15% off welcome offer
-                                </li>
-                                <li class="reg-info__plus text">Free shipping, returns and exchanges on all orders
-                                </li>
-                                <li class="reg-info__plus text">$10 off a purchase on your birthday
-                                </li>
-                                <li class="reg-info__plus text">Early access to products</li>
-                                <li class="reg-info__plus text">Exclusive offers & rewards</li>
-                            </ul>
+                        <div class="cart-right">
+                            <div class="cart-form">
+                                <form action="#" class="cart-place">
+                                    <input type="text" class="input-cart-place" placeholder="">
+                                    <input type="text" class="input-cart-place" placeholder="">
+                                    <input type="text" class="input-cart-place" placeholder="">
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,3 +176,5 @@
             crossorigin="anonymous"></script>
     </div>
 </body>
+
+</html>
