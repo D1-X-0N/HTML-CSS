@@ -74,7 +74,7 @@
                     <h4 class="reg-logo__logo reg-logo__logo_text text">SHOPPING CART</h4>
                 </div>
             </div>
-            <section class="cart">
+            <section class="cart-section">
                 <div class="container">
                     <div class="cart-flex">
                         <div class="cart-left">
@@ -89,7 +89,11 @@
                                                 </li>
                                                 <li class="card-quality text">Color: Red</li>
                                                 <li class="card-quality text">Size: Xl</li>
-                                                <li class="card-quality text">Quantity: 2</li>
+                                                <li class="card-quality text">Quantity: 
+                                                    <form class="card-quality-form" caction="#">
+                                                        <input class="card-quality-number" type="number" min="1" placeholder="1">
+                                                    </form>
+                                                </li>
                                             </ul>
                                             <a href="#" class="cart-card-close fas fa-times"></a>
                                         </div>
@@ -105,7 +109,11 @@
                                                 </li>
                                                 <li class="card-quality text">Color: Red</li>
                                                 <li class="card-quality text">Size: Xl</li>
-                                                <li class="card-quality text">Quantity: 2</li>
+                                                <li class="card-quality text">Quantity:                                                     <form class="card-quality-form" caction="#">
+                                                    <form class="card-quality-form" caction="#">     
+                                                        <input class="card-quality-number" type="number" min="1" placeholder="1">
+                                                    </form>
+                                                </li>
                                             </ul>
                                             <a href="#" class="cart-card-close fas fa-times"></a>
                                         </div>
@@ -124,9 +132,17 @@
                         <div class="cart-right">
                             <div class="cart-form">
                                 <form action="#" class="cart-place">
-                                    <input type="text" class="input-cart-place" placeholder="">
-                                    <input type="text" class="input-cart-place" placeholder="">
-                                    <input type="text" class="input-cart-place" placeholder="">
+                                    <h3 class="shopping-header text">SHIPPING ADRESS</h3>
+                                    <input type="text" required class="input-cart-place text" placeholder="Bangladesh">
+                                    <input type="text" required class="input-cart-place text" placeholder="State">
+                                    <input type="text" required class="input-cart-place text" placeholder="Postcode / Zip">
+                                    <input type="text" class="input-cart-place-comment text" placeholder="GET A QUOTE">
+                                    <div class="cart-place-shop">
+                                        <p class="cart-place-shop-text-mini text">SUB TOTAL <span class="price">$900</span></p>
+                                        <p class="cart-place-shop-text text">GRAND TOTAL <span class="red-color">$900</span></p>
+                                        <hr>
+                                        <button class="button-cart-place text" type="submit">PROCEED TO CHECKOUT</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
