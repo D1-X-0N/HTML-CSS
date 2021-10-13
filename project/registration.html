@@ -79,21 +79,21 @@
                         <div class="form">
                             <form class="form_flex" action="#">
                                 <h3 class="form__header text">Your Name</h3>
-                                <input class="form__input" type="text" placeholder="First Name">
-                                <input class="form__input" type="text" placeholder="Last Name">
+                                <input required class="form__input text" type="text" placeholder="First Name">
+                                <input required class="form__input text" type="text" placeholder="Last Name">
                                 <div class="form__radio__flex">
-                                    <label class="form__radio"><input class="form__radio__input" name="gender"
+                                    <label class="form__radio"><input required class="form__radio__input" name="gender"
                                             type="radio">Male</label>
                                     <label class="form__radio"><input class="form__radio__input" name="gender"
                                             type="radio">Female</label>
                                 </div>
                                 <h3 class="form__header-add text">Login details</h3>
-                                <input class="form__input" type="email" placeholder="Email">
-                                <input class="form__input-last" type="password" placeholder="Password">
+                                <input required class="form__input text" type="email" placeholder="Email">
+                                <input required class="form__input-last text" type="password" placeholder="Password">
                                 <p class="form__text-info">Please use 8 or more characters, with at least 1 number and a
                                     mixture of uppercase and lowercase letters</p>
                                 <div class="form__sumbit-after">
-                                    <input value="JOIN NOW" class="form__sumbit text" type="button">
+                                    <input value="JOIN NOW" class="form__sumbit text" type="submit">
                                 </div>
                             </form>
                         </div>
